@@ -1,0 +1,31 @@
+{
+  "name": "albums_ts",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "lint": "tslint -p \".\" -t stylish"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.1.2",
+    "react": "16.5.0",
+    "react-native": "0.57.2"
+  },
+  "devDependencies": {
+    "@types/react": "^16.4.15",
+    "@types/react-native": "^0.57.2",
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "metro-react-native-babel-preset": "0.48.0",
+    "react-native-typescript-transformer": "^1.2.10",
+    "react-test-renderer": "16.5.0",
+    "tslint": "^5.11.0",
+    "tslint-eslint-rules": "^5.4.0",
+    "tslint-react": "^3.6.0",
+    "tslint-react-recommended": "^1.0.15"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
